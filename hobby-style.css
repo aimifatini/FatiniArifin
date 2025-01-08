@@ -45,3 +45,10 @@
         grid-template-columns: repeat(2, 1fr) !important; 
     }
 }
+
+.gradient-highlight {
+    background: linear-gradient(to right, #f9ed69, #f08a5d);
+    color: black; 
+    padding: 2px 4px;
+    border-radius: 3px;
+}
