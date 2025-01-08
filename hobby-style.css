@@ -39,7 +39,6 @@
     text-transform: capitalize !important;
 }
 
-/* For smaller screens */
 @media (max-width: 768px) {
     .hobby-gallery {
         grid-template-columns: repeat(2, 1fr) !important; 
