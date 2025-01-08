@@ -1,0 +1,82 @@
+.section-title {
+    color: #000000; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.education-table {
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-table thead {
+    background-color: #9b59b6;
+    color: #ffffff;
+}
+
+.education-table th {
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid #9b59b6;
+}
+
+.education-table td {
+    border: 2px solid #9b59b6;
+    padding: 15px;
+    color: #000000;
+    vertical-align: middle;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.education-table img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education-table ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 20px; 
+    color: #000000; 
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.education-table ul li {
+    margin-bottom: 10px; 
+}
+
+.education-table tr:hover {
+    background-color: #f3e5f5;
+    transition: background-color 0.3s ease;
+}
+@media (max-width: 768px) {
+    .education-table {
+        width: 100%;
+    }
+
+    .education-table img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .education-table td, .education-table th {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .education-table ul {
+        font-size: 0.85rem;
+    }
+}
